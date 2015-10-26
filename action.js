@@ -12,7 +12,7 @@ $(document).ready(function () {
                     var phone = $(this).find('#phone');
                     if(phone.val() != '') {
                         phone.css('border', '');
-                        alert('Спасибо за Вашу заявку!');
+                        alert('РЎРїР°СЃРёР±Рѕ Р·Р° Р’Р°С€Сѓ Р·Р°СЏРІРєСѓ!');
                     } else {
                         phone.css('border', '1px solid red');
                     }
